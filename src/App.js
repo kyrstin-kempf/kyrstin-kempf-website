@@ -1,15 +1,23 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
+import NavBar from "./NavBar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import OneProject from "./pages/OneProject";
 
 function App() {
   return (
     <BrowserRouter>
+      <NavBar />
       <Routes>
-        <Route path="/kyrstin-kempf" element={ <Home /> } />
-        <Route path="/kyrstin-kempf/about" element={ <About /> } />
-        <Route path="/kyrstin-kempf/portfolio" element={ <Portfolio /> } />
-        <Route path="/kyrstin-kempf/contact" element={ <Contact /> } />
-        <Route path="/kyrstin-kempf/portfolio/:id" element={ <OneProject /> } />
+        <Route path="/" element={ <Home /> } />
+        <Route path="/about" element={ <About /> } />
+        <Route path="/portfolio" element={ <Portfolio /> } />
+        <Route path="/contact" element={ <Contact /> } />
+        <Route path="/portfolio/:id" element={ <OneProject /> } />
       </Routes>
     </BrowserRouter>
   );
