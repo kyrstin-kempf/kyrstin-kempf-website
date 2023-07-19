@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* @font-face {
+  font-family: 'Gagalin';
+  src: local('Gagalin-Regular'),
+    url('./fonts/Gagalin-Regular.ttf') format('truetype');
+} */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
