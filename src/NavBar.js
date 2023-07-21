@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../src/assets/logo-full.svg";
+import github from '../src/assets/gh.png'
+import medium from '../src/assets/md.png'
+
 
 function NavBar() {
 
@@ -16,9 +19,8 @@ function NavBar() {
         </div>
         <div className="nav-links">
             <ul>
-                <li><a href="https://github.com/kyrstin-kempf" target="_blank">a</a></li>
-                <li><a href="#" target="_blank">b</a></li>
-                <li><a href="#" target="_blank" id="nav-end">c</a></li>
+                <li><a href="https://github.com/kyrstin-kempf" target="_blank"><img src={github} alt='github'/></a></li>
+                <li id="medium-icon"><a href="#" target="_blank"><img src={medium} alt='medium'/></a></li>
             </ul>
         </div>
       </nav>
