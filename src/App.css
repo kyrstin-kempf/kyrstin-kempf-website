@@ -71,12 +71,20 @@ div.nav-links li {
   display: inline;
 }
 
-div.nav-links li #nav-end {
-  margin-right: 0;
+div.nav-links li a {
+  /* margin: 0; */
+  padding-top: 10px;
+  width: 40px;
+  height: auto;
 }
 
-div.nav-links li a {
-  width: auto;
+div.nav-links li#medium-icon a {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+div.nav-links li img {
+  width: 45px;
 }
 
 a#home-link {
@@ -90,6 +98,7 @@ a#home-link {
 
 .nav-menu a:hover {
 } */
+
 
 /* Page Setup ------------------------------------------- */
 
