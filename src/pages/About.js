@@ -1,5 +1,4 @@
 import React from "react";
-import profile from "../images/full-profile.jpeg"
 import aboutPhoto from "../images/about-photo-square.jpeg"
 
 function About() {

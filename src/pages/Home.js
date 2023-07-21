@@ -1,5 +1,4 @@
 import React from "react";
-import profile from '../images/HeadshotFull.jpeg'
 import profileBw from '../images/profile-bw.jpeg'
 
 function Home() {
