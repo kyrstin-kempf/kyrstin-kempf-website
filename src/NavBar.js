@@ -19,8 +19,8 @@ function NavBar() {
         </div>
         <div className="nav-links">
             <ul>
-                <li><a href="https://github.com/kyrstin-kempf" target="_blank"><img src={github} alt='github'/></a></li>
-                <li id="medium-icon"><a href="#" target="_blank"><img src={medium} alt='medium'/></a></li>
+                <li><a href="https://github.com/kyrstin-kempf" target="_blank" rel="noreferrer noopener"><img src={github} alt='github'/></a></li>
+                <li id="medium-icon"><a href="https://medium.com/@kyrstin.kempf" target="_blank" rel="noreferrer noopener"><img src={medium} alt='medium'/></a></li>
             </ul>
         </div>
       </nav>
