@@ -1,5 +1,5 @@
 import React from "react";
-import plane from "../assets/contact-plane-vector.png"
+import plane from "../assets/contact-plane-vector.svg"
 
 function Contact() {
   return (
