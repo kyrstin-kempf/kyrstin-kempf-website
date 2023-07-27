@@ -14,7 +14,7 @@ function About() {
             <p>Some interests include...</p>
           </div>
           <div className="child-three">
-            <h2>Technical Languages</h2>
+            <h2 className="about-h2">Technical Languages</h2>
             <hr></hr>
             <ul>
               <li>JavaScript</li>
@@ -28,7 +28,7 @@ function About() {
             <p>And growing... :)</p>
           </div>
           <div className="child-four">
-            <h2>Skills</h2>
+            <h2 className="about-h2">Skills</h2>
             <hr></hr>
             <ul>
               <li>Figma</li>
