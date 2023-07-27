@@ -2,7 +2,7 @@ import React from "react";
 
 function OnePortfolioTile({ project }) {
   return (
-    <div className="tile">
+    <div>
       <div className="portfolio-title">
         <h1>{project.title}</h1>
       </div>
