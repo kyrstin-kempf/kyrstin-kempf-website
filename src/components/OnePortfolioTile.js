@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function OnePortfolioTile({ project }) {
   return (
-    <Link to={`/projects/${project.id}`} className="project-tile">
+    <Link to={`/portfolio/${project.id}`} className="project-tile">
       <div>
         <div className="portfolio-title">
           <h1>{project.title}</h1>

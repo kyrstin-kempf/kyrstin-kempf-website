@@ -1,5 +1,5 @@
 import React from "react";
-import OnePortfolioTile from "../OnePortfolioTile";
+import OnePortfolioTile from "../components/OnePortfolioTile";
 
 function Portfolio({ projects }) {
 
