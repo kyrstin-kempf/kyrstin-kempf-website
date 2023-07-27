@@ -203,7 +203,7 @@ h2.about-h2 {
 /* Portfolio --------------------------------- */
 
 .all-tiles-container {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 25px;
@@ -211,12 +211,15 @@ h2.about-h2 {
   align-content: center;
 }
 
+.project-tile {
+  text-decoration: none;
+}
+
 .portfolio-title {
   background-color: white;
   color: #0F3F4F;
   text-align: center;
   border-radius: 3px;
-
 }
 
 .portfolio-title h1 {
