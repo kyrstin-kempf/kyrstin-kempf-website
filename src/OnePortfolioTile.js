@@ -1,13 +1,13 @@
 import React from "react";
 
-function OnePortfolioTile() {
+function OnePortfolioTile({ project }) {
   return (
     <div className="tile">
       <div className="portfolio-title">
-        <h1>Title</h1>
+        <h1>{project.title}</h1>
       </div>
       <div className="portfolio-image">
-        <p>test</p>
+        <img src={project.tile_image} alt="" />
       </div>
     </div>
   );
