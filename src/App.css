@@ -1,7 +1,7 @@
 /* Universals -------------------------------------- */
 html {
   box-sizing: content-box;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 10px 30px;
 }
 
@@ -30,7 +30,7 @@ h1, h2 {
 
 p, li {
   font-family: 'Hubballi', cursive;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /* NavBar ------------------------------------------ */
@@ -137,7 +137,7 @@ a#home-link {
 }
 
 .home-parent-block {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   vertical-align: middle;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -145,7 +145,7 @@ a#home-link {
 
 .home-child-block {
   display: inline-block;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   vertical-align: top;
 }
 
@@ -197,7 +197,7 @@ a#home-link {
 
 h2.about-h2 {
   font-size: 20px;
-  margin: 0;
+  margin: 0 0 -5px 0;
 }
 
 /* Portfolio --------------------------------- */
@@ -242,4 +242,31 @@ h2.about-h2 {
 
 .portfolio-image img {
   width: 100%;
+}
+
+/* Contact -------------------------------------- */
+
+.contact-h2 {
+  width: 35%;
+  /* border: 2px solid blue; */
+  font-size: 50px;
+}
+
+.contact-plane {
+  position: absolute;
+  /* border: 2px solid yellow; */
+  width: 500px;
+  top: 200px;
+  left: 450px;
+}
+
+.contact-p {
+  /* border: 2px solid pink; */
+  float: right;
+  width: 35%;
+  margin-bottom: 30px;
+}
+
+.contact-p p {
+  font-size: 26px;
 }
