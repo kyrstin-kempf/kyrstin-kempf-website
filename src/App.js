@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer"
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -31,6 +32,7 @@ function App() {
         <Route path="/contact" element={ <Contact /> } />
         <Route path="/portfolio/:id" element={ <OneProject projects={projects} /> } />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
