@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../src/assets/logo-full.svg";
-import github from '../src/assets/gh.png'
-import medium from '../src/assets/md.png'
+import logo from "../assets/logo-full.svg";
+import github from '../assets/gh.png'
+import medium from '../assets/md.png'
 
 
 function NavBar() {
