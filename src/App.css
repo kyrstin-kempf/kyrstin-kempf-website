@@ -28,6 +28,11 @@ h1, h2 {
   letter-spacing: .1rem; 
 }
 
+h2 {
+  font-size: 20px;
+  margin: 0 0 -5px 0;
+}
+
 p, li {
   font-family: 'Hubballi', cursive;
   font-size: 25px;
@@ -116,6 +121,7 @@ a#home-link {
 }
 
 .body-container {
+  border: 2px solid red;
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -195,11 +201,6 @@ a#home-link {
   /* border: 2px solid pink; */
 }
 
-h2.about-h2 {
-  font-size: 20px;
-  margin: 0 0 -5px 0;
-}
-
 /* Portfolio --------------------------------- */
 
 .all-tiles-container {
@@ -269,4 +270,11 @@ h2.about-h2 {
 
 .contact-p p {
   font-size: 26px;
+}
+
+.summary-box {
+  height: 300px;
+  background-color: white;
+  border-radius: 3px;
+  color: #0F3F4F;
 }
