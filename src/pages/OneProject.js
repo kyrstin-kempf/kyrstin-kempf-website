@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 function OneProject({ projects }) {
   const { id } = useParams();
 
-  const project = projects.filter(project => project.id == id)
+  const project = projects.filter(project => JSON.stringify(project.id) === id)
   // console.log(p)
 
   return (
@@ -16,8 +16,19 @@ function OneProject({ projects }) {
             <h2 className="about-h2">Summary</h2>
             <hr></hr>
             <div className="summary-box">
-              <h2>{p.title}</h2>
+              <h2 id="summary-h2">{p.title}</h2>
               <p>{p.details}</p>
+
+              {p.deployed_link.length === 0 ?
+              <p id="project-links-p">
+                <a href={p.github_link} target="_blank" rel="noopener noreferrer" className="project-links">GitHub</a> 
+              </p>
+              :
+              <p id="project-links-p">
+                <a href={p.github_link} target="_blank" rel="noopener noreferrer" className="project-links">GitHub</a> | <a href={p.deployed_link} target="_blank" rel="noopener noreferrer" className="project-links">{p.deployed_link_display}</a>
+              </p>
+              }
+
             </div>
           </div>
           <div className="bts-column">
@@ -28,7 +39,7 @@ function OneProject({ projects }) {
           <div>
             <h2>Snapshot</h2>
             <hr></hr>
-            <img src={p.gif} alt="" className="bts-img"/>
+            <img src={p.gif} alt="" className="snapshot"/>
           </div>
         </div>
       ))} 
