@@ -174,7 +174,7 @@ a#footer-link img {
   padding-left: 80px;
   padding-right: 80px;
   border: 2px solid red;
-  min-height: calc(100vh - 110px);
+  min-height: calc(90vh - 110px);
 }
 
 /* Home ----------------------------------------------- */
