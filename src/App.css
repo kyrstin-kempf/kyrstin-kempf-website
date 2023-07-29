@@ -1,7 +1,7 @@
 /* Universals -------------------------------------- */
 html {
   box-sizing: content-box;
-  margin: 10px 30px;
+  margin: 10px 30px 0 30px;
 }
 
 *, *:before, *:after {
@@ -103,6 +103,57 @@ a#home-link {
   width: auto;
 }
 
+/* Footer ----------------------------------------------- */
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  color: #0F3F4F;
+  margin-top: 40px;
+  margin-left: -32px;
+  margin-right: -32px;
+  padding: 15px 32px;
+  padding: 6px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+}
+
+.footer-menu a {
+  color: #0F3F4F;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin: 10px;
+  width: 60px;
+  font-family: 'Hubballi', cursive;
+}
+
+div.footer-home {
+  text-align: left;
+  margin: 0;
+}
+
+.footer-copyright p {
+  font-size: 18px;
+}
+
+a#footer-link {
+  margin-right: 20px;
+  width: auto;
+}
+
+a#footer-link img {
+  height: 40px;
+}
+
 /* Page Setup ------------------------------------------- */
 
 .page-title {
@@ -123,6 +174,7 @@ a#home-link {
   padding-left: 80px;
   padding-right: 80px;
   border: 2px solid red;
+  min-height: calc(100vh - 110px);
 }
 
 /* Home ----------------------------------------------- */
