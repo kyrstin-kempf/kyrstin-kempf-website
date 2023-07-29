@@ -11,7 +11,7 @@ function OneProject({ projects }) {
   return (
     <div className="body-container">
       {project.map(p => (
-        <div key={p.id}>
+        <div key={p.id} className="one-project-container">
           <div>
             <h2 className="about-h2">Summary</h2>
             <hr></hr>
@@ -20,15 +20,15 @@ function OneProject({ projects }) {
               <p>{p.details}</p>
             </div>
           </div>
-          <div>
+          <div className="bts-column">
             <h2>Behind The Scenes</h2>
             <hr></hr>
-            <img src={p.wireframe_image} alt="" />
+            <img src={p.wireframe_image} alt="" className="bts-img"/>
           </div>
           <div>
             <h2>Snapshot</h2>
             <hr></hr>
-            <img src={p.gif} alt="" />
+            <img src={p.gif} alt="" className="bts-img"/>
           </div>
         </div>
       ))} 
