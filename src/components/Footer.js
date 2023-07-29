@@ -1,14 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo-full.svg";
+import footerLogo from "../assets/footer-logo.svg";
 
 function Footer() {
 
   return (
-    <div className="footer-menu">
-        <nav>
+    <div className="footer">
+        <nav className="footer-menu">
             <div className="footer-home">
-                <NavLink end to="/" id="home-link"><img src={logo} alt='Home'/></NavLink>
+                <NavLink end to="/" id="footer-link"><img src={footerLogo} alt='Home'/></NavLink>
             </div>
             <div className="footer-main">
                 <NavLink end to="/about">About</NavLink>
