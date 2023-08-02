@@ -173,7 +173,6 @@ a#footer-link img {
 .body-container {
   padding-left: 80px;
   padding-right: 80px;
-  border: 2px solid red;
   min-height: calc(90vh - 110px);
 }
 
@@ -263,30 +262,35 @@ a#footer-link img {
 .portfolio-title {
   background-color: white;
   color: #0F3F4F;
+  /* color: white; */
   text-align: center;
+  /* border: 2px solid white; */
   border-radius: 3px;
+  margin-bottom: 6px;
+  vertical-align: middle;
 }
 
 .portfolio-title h1 {
   font-size: 16px;
+  width: inherit;
   padding: 10px 0;
-  margin-top: 0;
-  margin-bottom: 6px;
+  margin: 0;
 }
 
 .portfolio-image {
-  border: 2px solid white;
+  /* border: 2px solid white;*/
   border-radius: 3px;
-  width: 100%;
+  background-color: white;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
+  height: 250px;
 }
 
 .portfolio-image img {
   width: 100%;
+  object-fit: contain;
+  padding: 10px;
 }
 
 /* One Portfolio Project -------------------------- */
@@ -358,6 +362,15 @@ div.summary-box p {
   color: inherit;
 }
 
+.back-btn-container {
+  text-align: center;
+}
+
+#back-btn {
+  color: white;
+  text-decoration: none;
+}
+
 /* Contact -------------------------------------- */
 
 .contact-h2 {
@@ -384,7 +397,7 @@ div.summary-box p {
 }
 
 #email-btn {
-  font-family: 'Hubballi', cursive;;
+  font-family: 'Hubballi', cursive;
   font-size: 26px;
   padding: 7px 20px 14px 20px;
   color: white;
