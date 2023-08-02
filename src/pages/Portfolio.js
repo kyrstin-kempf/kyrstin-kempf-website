@@ -3,7 +3,8 @@ import OnePortfolioTile from "../components/OnePortfolioTile";
 
 function Portfolio({ projects }) {
 
-  const allProjects = projects.map((p) => <OnePortfolioTile key={ p.id } project={p} /> )
+  const newestProjectsFirst = [...projects].sort((a, b) => b.id - a.id);
+  const allProjects = newestProjectsFirst.map((p) => <OnePortfolioTile key={ p.id } project={p} /> )
 
   return (
     <div className="body-container"> 
