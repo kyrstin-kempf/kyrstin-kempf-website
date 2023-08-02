@@ -35,12 +35,16 @@ function OneProject({ projects }) {
           <div className="bts-column">
             <h2>Behind The Scenes</h2>
             <hr></hr>
-            <img src={p.wireframe_image} alt="" className="bts-img"/>
+            <div className="bts-img">
+              <img src={p.wireframe_image} alt=""/>
+            </div>
           </div>
           <div>
             <h2>Snapshot</h2>
             <hr></hr>
-            <img src={p.gif_image} alt="" className="snapshot"/>
+            <div className="snapshot">
+              <img src={p.gif_image} alt=""/>
+            </div>
           </div>
         </div>
       ))}
