@@ -44,6 +44,10 @@ hr {
   border-bottom: 1px solid white;
 }
 
+a {
+  color: #0F3F4F;
+}
+
 /* NavBar ------------------------------------------ */
 
 .nav-menu {
@@ -327,25 +331,24 @@ div.summary-box p {
 .bts-img {
   border: 2px solid white;
   border-radius: 3px;
-  width: 100%;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
-  height: 873px;
+  height: 733px;
 }
 
 .snapshot {
   border: 2px solid white;
   border-radius: 3px;
-  width: 100%;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
-  height: 500px;
+  height: 360px;
+}
+
+.snapshot img {
+  width: 100%;
+  object-fit: fill;
 }
 
 #project-links-p {
