@@ -335,6 +335,7 @@ div.summary-box p {
   display: flex;
   overflow: hidden;
   height: 733px;
+  background-color: white;
 }
 
 .bts-no-img {
