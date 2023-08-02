@@ -35,9 +35,17 @@ function OneProject({ projects }) {
           <div className="bts-column">
             <h2>Behind The Scenes</h2>
             <hr></hr>
-            <div className="bts-img">
-              <img src={p.wireframe_image} alt=""/>
-            </div>
+
+            {p.wireframe_image.length === 0 ?
+              <div className="bts-no-img">
+                <h3>None available for this project</h3>
+              </div>
+              :
+              <div className="bts-img">
+                <img src={p.wireframe_image} alt="" />
+              </div>
+            }
+
           </div>
           <div>
             <h2>Snapshot</h2>
