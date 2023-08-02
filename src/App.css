@@ -337,6 +337,17 @@ div.summary-box p {
   height: 733px;
 }
 
+.bts-no-img {
+  border: 2px solid white;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 733px;
+  background-color: rgb(233,233,233,.3);
+  color: white;
+  font-family: 'Hubballi', cursive;
+  text-align: center;
+}
+
 .snapshot {
   border: 2px solid white;
   border-radius: 3px;
