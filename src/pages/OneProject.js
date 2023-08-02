@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import { useParams } from "react-router-dom";
 
 
@@ -6,7 +7,7 @@ function OneProject({ projects }) {
   const { id } = useParams();
 
   const project = projects.filter(project => JSON.stringify(project.id) === id)
-  // console.log(p)
+  // console.log(project)
 
   return (
     <div className="body-container">
@@ -25,7 +26,7 @@ function OneProject({ projects }) {
               </p>
               :
               <p id="project-links-p">
-                <a href={p.github_link} target="_blank" rel="noopener noreferrer" className="project-links">GitHub</a> | <a href={p.deployed_link} target="_blank" rel="noopener noreferrer" className="project-links">{p.deployed_link_display}</a>
+                <a href={p.github_link} target="_blank" rel="noopener noreferrer" className="project-links">GitHub</a> | <a href={p.deployed_link} target="_blank" rel="noopener noreferrer" className="project-links">Link</a>
               </p>
               }
 
@@ -39,10 +40,13 @@ function OneProject({ projects }) {
           <div>
             <h2>Snapshot</h2>
             <hr></hr>
-            <img src={p.gif} alt="" className="snapshot"/>
+            <img src={p.gif_image} alt="" className="snapshot"/>
           </div>
         </div>
-      ))} 
+      ))}
+      <div className="back-btn-container">
+        <Link to={`/portfolio`} id="back-btn">⬅︎ Back</Link>
+      </div>
     </div>
   );
 }
