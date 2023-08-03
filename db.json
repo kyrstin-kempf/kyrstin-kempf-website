@@ -67,7 +67,7 @@
             "inspo": "This personal website was created as place to showcase my portfolio and have fun! I love building; it is intrinsically very enjoyable.",
             "details": "Kyrstin Kempf - my personal website was created using create-react-app and is a single page application. I am using json-server to access data from a JSON file. This was my first project that was entirely self-directed and the first time I've used CSS grid. Visitors can learn more about me and navigate to see my portfolio. One of my favorite challeges was figuring out how to get my email address to copy-to-clipboard on click.",
             "languages": "React, JavaScript, HTML, CSS",
-            "github_link": "https://github.com/kyrstin-kempf/kyrstin-kempf-website",
+            "github_link": "https://github.com/kyrstin-kempf/personal-website",
             "deployed_link": "https://www.kyrstinkempf.com",
             "gif_image": "/snapshots/p6_personal_website.gif",
             "wireframe_image": "/behind_the_scenes/p6_personal_website.png"
