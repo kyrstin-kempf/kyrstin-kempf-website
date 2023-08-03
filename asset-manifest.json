@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.20c9071f.css",
+    "main.js": "/personal-website/static/js/main.804b2351.js",
+    "static/js/787.b8391ad2.chunk.js": "/personal-website/static/js/787.b8391ad2.chunk.js",
+    "static/media/profile-bw.jpeg": "/personal-website/static/media/profile-bw.cb3044884f8869f983ed.jpeg",
+    "static/media/Gagalin-Regular.ttf": "/personal-website/static/media/Gagalin-Regular.891b936b3c458a5230ca.ttf",
+    "static/media/about-photo-square.jpeg": "/personal-website/static/media/about-photo-square.f4a9081ec782a47fffae.jpeg",
+    "static/media/Hubballi-Regular.ttf": "/personal-website/static/media/Hubballi-Regular.a220435f5b3dd8a6e273.ttf",
+    "static/media/logo-full.svg": "/personal-website/static/media/logo-full.17765fa90e8cd718e7f1f5dc98a3f0d6.svg",
+    "static/media/footer-logo.svg": "/personal-website/static/media/footer-logo.1ac18fe298db7e0e7870977ecf029c7a.svg",
+    "static/media/contact-plane-vector.svg": "/personal-website/static/media/contact-plane-vector.db20afb4d760f686f3b05fe0a61f6457.svg",
+    "index.html": "/personal-website/index.html",
+    "main.20c9071f.css.map": "/personal-website/static/css/main.20c9071f.css.map",
+    "main.804b2351.js.map": "/personal-website/static/js/main.804b2351.js.map",
+    "787.b8391ad2.chunk.js.map": "/personal-website/static/js/787.b8391ad2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c9071f.css",
+    "static/js/main.804b2351.js"
+  ]
+}
