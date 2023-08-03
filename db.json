@@ -4,27 +4,33 @@
             "id": 1,
             "title": "Craft Organizer",
             "tile_image": "/tile_images/p1_craft_organizer.png",
-            "details": "details",
+            "inspo": "Craft Organizer was inspired by love for arts and crafts and desire to organize the best ideas I've found.",
+            "details": "Craft Organizer is a single page application and data is accessed from a db.json file using json-server. This web app allows the user to add, delete, and star an idea. When adding an idea, the user can note the medium, method, challenge level, and the source name and link.",
+            "languages": "JavaScript, HTML, CSS",
             "github_link": "https://github.com/kyrstin-kempf/craft-organizer",
             "deployed_link": "",
-            "gif_image": "",
+            "gif_image": "/snapshots/p1_craft_organizer.gif",
             "wireframe_image": ""
         },
         {
             "id": 2,
             "title": "Greek God Card Generator",
             "tile_image": "/tile_images/p2_greek_god_card_generator.png",
-            "details": "details",
+            "inspo": "The Greek God Card Generator was inspired by my interest in Greek mythology and wanting a straightforward way of learning about them.",
+            "details": "This is a single page application and data is accessed from a db.json file using json-server. This web app allows a user to view, create, and delete cards of Greek gods. The user can also favorite gods with a star and when creating a new card, users can add the god's name, power, symbol, roman name, and an image link. This was my first time using create-react-app.",
+            "languages": "React, JavaScript, HTML, CSS",
             "github_link": "https://github.com/kyrstin-kempf/greek-god-card-generator",
             "deployed_link": "",
-            "gif_image": "",
-            "wireframe_image": ""
+            "gif_image": "/snapshots/p2_greek_god_card_generator.gif",
+            "wireframe_image": "/behind_the_scenes/p2_greek_god_card_generator.png"
         },
         {
             "id": 3,
             "title": "Home Improvement Planner",
             "tile_image": "/tile_images/p3_home_improvement_planner.png",
-            "details": "details",
+            "inspo": "Home Improvement Planner came from necessity. As new homeowner, I wanted a way to categorize each project with its respetive tasks.",
+            "details": "This single page application has full CRUD capabilities (create, read, update, delete), and was created with a React frontend and a Sinatra API backend. New home renovations projects can be created with a priority level and tasks within each project can be edited, shown as completed, or deleted.",
+            "languages": "React, Sinatra, JavaScript, HTML, CSS",
             "github_link": "https://github.com/kyrstin-kempf/home-improvement-planner",
             "deployed_link": "",
             "gif_image": "/snapshots/p3_home_improvement_planner.gif",
@@ -34,31 +40,37 @@
             "id": 4,
             "title": "Sitter Rating",
             "tile_image": "/tile_images/p4_sitter_rating.png",
-            "details": "details",
+            "inspo": "Sitter Rating came about as I recognized that there are no current babysitting platforms that are free and well developed.",
+            "details": "Sitter Rating was created with a React frontend and Rails API backend, and it was my first project implementing Rails authentication and authorization. This web app allows a user to sign up and create new sitters that any user can view and add a rating. When a user logs in, they will be able to navigate to see all sitters or the sitters they have rated.",
+            "languages": "Rails, React, JavaScript, HTML, CSS",
             "github_link": "https://github.com/kyrstin-kempf/sitter-rating",
             "deployed_link": "https://sitter-rating.onrender.com/",
             "gif_image": "/snapshots/p4_sitter_rating.gif",
-            "wireframe_image": ""
+            "wireframe_image": "/behind_the_scenes/p4_sitter_rating.png"
         },
         {
             "id": 5,
             "title": "Noteworthy Places",
             "tile_image": "/tile_images/p5_noteworthy_places.png",
-            "details": "details",
+            "inspo": "When a friend asks for recommendations in a place you've already visited, have you forgotten the name of places you visited? Noteworthy Places was created to save and organize our favorite places we've been to for easy sharing later.",
+            "details": "Noteworthy Places was created with a React frontend and Rails API backend. This app includes Rails authentication and authorization and was my first experience implementing Redux. Once a user signs up, they can add new places of interests that will be categorized by city. Each place added includes the name, activity type, direction link, website link, and notes.",
+            "languages": "Rails, React, JavaScript, HTML, CSS",
             "github_link": "https://github.com/kyrstin-kempf/noteworthy-places",
             "deployed_link": "https://noteworthy-places.onrender.com",
             "gif_image": "/snapshots/p5_noteworthy_places.gif",
-            "wireframe_image": ""
+            "wireframe_image": "/behind_the_scenes/p5_noteworthy_places.png"
         },
         {
             "id": 6,
-            "title": "Portfolio Website",
+            "title": "Personal Website",
             "tile_image": "/tile_images/p6_personal_website.png",
-            "details": "details",
+            "inspo": "This personal website was created as place to showcase my portfolio and have fun! I love building; it is intrinsically very enjoyable.",
+            "details": "Kyrstin Kempf - my personal website was created using create-react-app and is a single page application. I am using json-server to access data from a JSON file. This was my first project that was entirely self-directed and the first time I've used CSS grid. Visitors can learn more about me and navigate to see my portfolio. One of my favorite challeges was figuring out how to get my email address to copy-to-clipboard on click.",
+            "languages": "React, JavaScript, HTML, CSS",
             "github_link": "https://github.com/kyrstin-kempf/kyrstin-kempf-website",
-            "deployed_link": "www.kyrstinkempf.com",
-            "gif_image": "",
-            "wireframe_image": ""
+            "deployed_link": "https://www.kyrstinkempf.com",
+            "gif_image": "/snapshots/p6_personal_website.gif",
+            "wireframe_image": "/behind_the_scenes/p6_personal_website.png"
         }
     ]
 }
