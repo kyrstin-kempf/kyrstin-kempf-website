@@ -14,7 +14,7 @@ function App() {
 
   useEffect( () => {
     const fetchProjects = async () => {
-      const response = await fetch('http://localhost:3001/projects')
+      const response = await fetch('https://my-json-server.typicode.com/kyrstin-kempf/kyrstin-kempf.github.io/projects')
       const data = await response.json();
       setProjects(data);
     }
