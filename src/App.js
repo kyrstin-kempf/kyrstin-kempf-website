@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer"
@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <NavBar />
       <Routes>
         <Route path="/" element={ <Home /> } />
@@ -33,7 +33,7 @@ function App() {
         <Route path="/portfolio/:id" element={ <OneProject projects={projects} /> } />
       </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
