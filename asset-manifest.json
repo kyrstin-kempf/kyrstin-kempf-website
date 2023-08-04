@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.83a705b0.css",
+    "main.css": "/static/css/main.74077588.css",
     "main.js": "/static/js/main.db9a25cd.js",
     "static/js/787.b8391ad2.chunk.js": "/static/js/787.b8391ad2.chunk.js",
     "static/media/profile-bw.jpeg": "/static/media/profile-bw.cb3044884f8869f983ed.jpeg",
     "static/media/Gagalin-Regular.ttf": "/static/media/Gagalin-Regular.891b936b3c458a5230ca.ttf",
+    "static/media/Gagalin-Regular.woff": "/static/media/Gagalin-Regular.72e12e11d7c4b4bbbeda.woff",
     "static/media/about-photo-square.jpeg": "/static/media/about-photo-square.f4a9081ec782a47fffae.jpeg",
     "static/media/Hubballi-Regular.ttf": "/static/media/Hubballi-Regular.a220435f5b3dd8a6e273.ttf",
+    "static/media/Gagalin-Regular.woff2": "/static/media/Gagalin-Regular.5563bede5325ce5462ee.woff2",
     "static/media/logo-full.svg": "/static/media/logo-full.17765fa90e8cd718e7f1f5dc98a3f0d6.svg",
     "static/media/footer-logo.svg": "/static/media/footer-logo.1ac18fe298db7e0e7870977ecf029c7a.svg",
     "static/media/contact-plane-vector.svg": "/static/media/contact-plane-vector.db20afb4d760f686f3b05fe0a61f6457.svg",
     "index.html": "/index.html",
-    "main.83a705b0.css.map": "/static/css/main.83a705b0.css.map",
+    "main.74077588.css.map": "/static/css/main.74077588.css.map",
     "main.db9a25cd.js.map": "/static/js/main.db9a25cd.js.map",
     "787.b8391ad2.chunk.js.map": "/static/js/787.b8391ad2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83a705b0.css",
+    "static/css/main.74077588.css",
     "static/js/main.db9a25cd.js"
   ]
 }
