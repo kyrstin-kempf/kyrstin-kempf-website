@@ -19,3 +19,7 @@ To run this application, make sure the following is installed:
 4. In another terminal, run `npm start` to open the webpage [http://localhost:3000](http://localhost:3000)
 
 To view my website without forking and cloning, visit [https://kyrstinkempf.com](https://kyrstinkempf.com)
+
+## Credit
+
+I have to give a big shoutout to [Rafael Pedicini](https://github.com/rafgraph/spa-github-pages) and [Paulo Lima](https://medium.com/@itspaulolimahimself/deploying-a-react-js-spa-app-to-github-pages-58ddaa2897a3). Their work helped make my SPA possible on GitHub Pages. No more hard refresh 404 pages!
