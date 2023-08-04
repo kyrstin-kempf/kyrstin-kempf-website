@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.83a705b0.css",
-    "main.js": "/static/js/main.db9a25cd.js",
+    "main.js": "/static/js/main.050654d2.js",
     "static/js/787.b8391ad2.chunk.js": "/static/js/787.b8391ad2.chunk.js",
     "static/media/profile-bw.jpeg": "/static/media/profile-bw.cb3044884f8869f983ed.jpeg",
     "static/media/Gagalin-Regular.ttf": "/static/media/Gagalin-Regular.891b936b3c458a5230ca.ttf",
@@ -12,11 +12,11 @@
     "static/media/contact-plane-vector.svg": "/static/media/contact-plane-vector.db20afb4d760f686f3b05fe0a61f6457.svg",
     "index.html": "/index.html",
     "main.83a705b0.css.map": "/static/css/main.83a705b0.css.map",
-    "main.db9a25cd.js.map": "/static/js/main.db9a25cd.js.map",
+    "main.050654d2.js.map": "/static/js/main.050654d2.js.map",
     "787.b8391ad2.chunk.js.map": "/static/js/787.b8391ad2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83a705b0.css",
-    "static/js/main.db9a25cd.js"
+    "static/js/main.050654d2.js"
   ]
 }
