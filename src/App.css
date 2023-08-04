@@ -16,7 +16,9 @@ body {
 
 @font-face {
   font-family: 'Gagalin', Helvetica, Arial, sans-serif;
-  src: url('./fonts/Gagalin-Regular.ttf') format('truetype');
+  src: url('./fonts/Gagalin-Regular.ttf') format('truetype'),
+       url('./fonts/Gagalin-Regular.woff2') format('woff2'),
+       url('./fonts/Gagalin-Regular.woff') format('woff');
   font-family: 'Hubballi';
   src: url('./fonts/Hubballi-Regular.ttf') format('truetype');
 }
@@ -177,7 +179,7 @@ a#footer-link img {
 .body-container {
   padding-left: 80px;
   padding-right: 80px;
-  min-height: calc(90vh - 110px);
+  min-height: calc(100vh - 110px);
 }
 
 /* Home ----------------------------------------------- */
