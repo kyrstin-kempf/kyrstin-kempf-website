@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter basename="/personal-website">
+    <BrowserRouter basename="/kyrstinkempf">
       <NavBar />
       <Routes>
         <Route path="/" element={ <Home /> } />
