@@ -17,7 +17,7 @@ body {
 @font-face {
   font-family: 'Gagalin', Helvetica, Arial, sans-serif;
   src: url('./fonts/Gagalin-Regular.ttf') format('truetype');
-  font-family: 'Hubballi', cursive;
+  font-family: 'Hubballi';
   src: url('./fonts/Hubballi-Regular.ttf') format('truetype');
 }
 
@@ -33,7 +33,7 @@ h2 {
 }
 
 p, li {
-  font-family: 'Hubballi', cursive;
+  font-family: 'Hubballi';
   font-size: 22px;
 }
 
@@ -68,7 +68,7 @@ a {
   display: inline-block;
   margin: 10px;
   width: 120px;
-  font-family: 'Hubballi', cursive;
+  font-family: 'Hubballi';
 }
 
 div.nav-home {
@@ -137,7 +137,7 @@ a#home-link {
   display: inline-block;
   margin: 10px;
   width: 60px;
-  font-family: 'Hubballi', cursive;
+  font-family: 'Hubballi';
 }
 
 div.footer-home {
@@ -352,7 +352,7 @@ div.summary-box p {
   height: 95%;
   background-color: rgb(233,233,233,.25);
   color: white;
-  font-family: 'Hubballi', cursive;
+  font-family: 'Hubballi';
   text-align: center;
 }
 
@@ -421,7 +421,7 @@ div.summary-box p {
 }
 
 #email-btn {
-  font-family: 'Hubballi', cursive;
+  font-family: 'Hubballi';
   font-size: 26px;
   padding: 7px 20px 14px 20px;
   color: white;
