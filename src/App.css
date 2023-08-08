@@ -15,7 +15,7 @@ body {
 }
 
 @font-face {
-  font-family: 'Gagalin', Helvetica, Arial, sans-serif;
+  font-family: 'Gagalin';
   src: url('./fonts/Gagalin-Regular.ttf') format('truetype'),
        url('./fonts/Gagalin-Regular.woff2') format('woff2'),
        url('./fonts/Gagalin-Regular.woff') format('woff');
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Gagalin', Helvetica, Arial, sans-serif;
+  font-family: 'Gagalin';
   font-size: 45px;
   letter-spacing: .1rem; 
 }
