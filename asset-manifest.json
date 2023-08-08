@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.74077588.css",
-    "main.js": "/static/js/main.db9a25cd.js",
+    "main.css": "/static/css/main.c3f0275c.css",
+    "main.js": "/static/js/main.726dcd4d.js",
     "static/js/787.b8391ad2.chunk.js": "/static/js/787.b8391ad2.chunk.js",
     "static/media/profile-bw.jpeg": "/static/media/profile-bw.cb3044884f8869f983ed.jpeg",
     "static/media/Gagalin-Regular.ttf": "/static/media/Gagalin-Regular.891b936b3c458a5230ca.ttf",
@@ -13,12 +13,12 @@
     "static/media/footer-logo.svg": "/static/media/footer-logo.1ac18fe298db7e0e7870977ecf029c7a.svg",
     "static/media/contact-plane-vector.svg": "/static/media/contact-plane-vector.db20afb4d760f686f3b05fe0a61f6457.svg",
     "index.html": "/index.html",
-    "main.74077588.css.map": "/static/css/main.74077588.css.map",
-    "main.db9a25cd.js.map": "/static/js/main.db9a25cd.js.map",
+    "main.c3f0275c.css.map": "/static/css/main.c3f0275c.css.map",
+    "main.726dcd4d.js.map": "/static/js/main.726dcd4d.js.map",
     "787.b8391ad2.chunk.js.map": "/static/js/787.b8391ad2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74077588.css",
-    "static/js/main.db9a25cd.js"
+    "static/css/main.c3f0275c.css",
+    "static/js/main.726dcd4d.js"
   ]
 }
